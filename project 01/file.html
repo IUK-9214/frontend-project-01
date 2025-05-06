@@ -9,7 +9,7 @@
   <body>
     <nav class="navbar">
       <div class="nav-pic">
-        <img src="logo.png" alt="logo" style="height: 180px" />
+        <img src="logo.png" alt="logo" style=" position: relative;top: 9px;left: 4px;height: 153px;  height: 160px" />
       </div>
       <div class="home-about">
         <ul class="list">
@@ -24,10 +24,10 @@
               height: 50px;
               width: 130px;
               border-radius: 15px;
-              border: 1px solid rgb(4, 100, 244);
+              border: 1px solid #3374ff;
               font-size: 15px;
               font-weight: bold;
-              color: rgb(4, 100, 244);
+              color: #3374ff;
             "
           >
             Contact
@@ -38,10 +38,48 @@
     <!--header section here i will create a section which contain the two div-->
     <section class="main-section">
       <div class="left-section">
-        <img src="header.png" style="height: 500px;" alt="image of students" />
+        <img src="header.png" style="height: 500px" alt="image of students" />
       </div>
-      <div class="right-section" style="height: 500px; width: 500px;">
-        <div style="display: inline-block;"><span style="color: rgb(5, 83, 251); font-weight: bold;">Amazing</span> start here</div>
+      <div
+        class="right-section"
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 500px;
+          width: 500px;
+          border: 1px rgb(108, 159, 185);
+        "
+      >
+        <div
+          style="
+            position: relative;
+            right: 85px;
+            top: 20px;
+            background-color: #f5f6fb;
+            display: inline-block;
+            padding: 6px;
+            margin: 8px;
+            border-radius: 16px;
+          "
+        >
+          <div style=" font-size: 18px;  display: inline-block">
+            <span style="color: #3374ff; font-weight: bold">Amazing</span>
+            Start Here
+          </div>
+        </div>
+        <div
+          class="writing"
+          style="
+            display: flex;
+            flex-direction: column;
+          
+            width: 319px;
+          "
+        >
+          <h1 style="font-size: 3rem">Grow Your Business Using Our Services</h1>
+        </div>
       </div>
     </section>
 
