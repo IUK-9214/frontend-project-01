@@ -14,14 +14,15 @@ const observer= new IntersectionObserver((enteries)=>{
 
   //functipnn created for the card on which i will apply the transtions 
   function card( img , img_of,heading,txt) {
-let html= `      <div class="box hidden">
+let html= `      <div class="box ">
         <img
+        class="hidden"
           src="${img}"
           alt="${img_of}"
           style="height: 74px; width: 80px"
         />
 
-        <div class="box-content">
+        <div class="box-content hidden">
           <h1>${heading}</h1>
           <p>
            ${txt}
