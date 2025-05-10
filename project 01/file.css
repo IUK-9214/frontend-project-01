@@ -91,7 +91,7 @@ cursor: pointer;
 .hidden{
     opacity: 0;
 
-    transform: translateY(50%);
+    transform: translateY(60%);
     transition: all 1s;
     transition-delay: 0.2s;
 }
