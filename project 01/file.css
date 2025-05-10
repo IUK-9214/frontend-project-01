@@ -47,20 +47,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background-color: #3c79fd;
+    flex-wrap: wrap;    
 }
-.box>h1 {
-    padding: 0px;
-    margin: 0px;
+.box-content{
+    text-align: center;
+    padding: 10px;
 }
-.box>p {
-    padding: 0px;
-    margin: 0px;
+.box-content >h1{
+    margin: 5%;
 }
-
-.box :hover{
-    cursor: pointer;
-    transform: scale3d(10px);
-    transition: all;
+.box-content >p{
+    margin: 0%;
 }
