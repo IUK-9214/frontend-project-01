@@ -32,6 +32,7 @@ let html= `      <div class="box ">
 `
  document.querySelector('.main_2').innerHTML=document.querySelector(".main_2").innerHTML+ html;
     }
+    
     card("card-1.png" ,"pen","UI/UX Design"," Lorem Ipsum is simply dummy text of the printing and typesetting industry")
     card("card-2.png","image of pen","Product Design","Lorem Ipsum is simply dummy text of the printing and typesetting industry")
     card("card-3.png","image of ball","Website Design","Lorem Ipsum is simply dummy text of the printing and typesetting industry")

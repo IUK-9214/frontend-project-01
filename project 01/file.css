@@ -1,6 +1,7 @@
-body{
-    padding: 0px;
+*{
     margin: 0px;
+    padding: 0px;
+
 }
 .navbar {
     display: flex;
@@ -91,7 +92,7 @@ cursor: pointer;
 .hidden{
     opacity: 0;
 
-    transform: translateY(60%);
+    transform: translateY(80%);
     transition: all 1s;
     transition-delay: 0.2s;
 }
@@ -99,4 +100,16 @@ cursor: pointer;
 opacity: 1.0;
 
 transform: translateY(0);
+}
+.main_3{
+    background-color: pink;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+.white-circle{
+    background-color: white ;
 }
