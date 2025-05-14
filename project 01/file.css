@@ -101,15 +101,35 @@ opacity: 1.0;
 
 transform: translateY(0);
 }
-.main_3{
+.main-3{
     background-color: pink;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
+    padding: 30px;
 
 }
+.main-3:hover{
+cursor: pointer;
+box-shadow: 10px 10px 10px rgb(44, 189, 214);
+}
+
+
+
+.main-3-inner-right >img{
+    width: 400px;
+    height: 500px;
+
+}
+
+.main-3-inner-right >img:hover{
+    
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
 .white-circle{
     background-color: white ;
 }
