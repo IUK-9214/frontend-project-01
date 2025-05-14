@@ -121,13 +121,13 @@ box-shadow: 10px 10px 10px rgb(44, 189, 214);
 .main-3-inner-right >img{
     width: 400px;
     height: 500px;
-
+ transition: all 0.5s ease-in-out;
 }
 
 .main-3-inner-right >img:hover{
     
-    transform: scale(1.05);
-    transition: all 0.5s ease-in-out;
+    transform: scale(1.10);
+   
 }
 
 .white-circle{
