@@ -113,14 +113,21 @@ transform: translateY(0);
 }
 .main-3:hover{
 cursor: pointer;
-box-shadow: 10px 10px 10px rgb(44, 189, 214);
+box-shadow: 10px 10px 10px rgba(7, 237, 233, 0.717);
 }
 
+.main-3-inner-left{
+    display: flex;
+    flex-direction: column;
+   row-gap: 20px;
+padding-right: 51px;
 
+}
 
 .main-3-inner-right >img{
-    width: 400px;
-    height: 500px;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
  transition: all 0.5s ease-in-out;
 }
 
@@ -132,4 +139,39 @@ box-shadow: 10px 10px 10px rgb(44, 189, 214);
 
 .white-circle{
     background-color: white ;
+}
+.main-3-inner-left-concept{
+    display: flex;
+    padding-bottom: 20px;
+    
+}
+.image-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    width: 46px;
+    border-radius: 50%;
+
+}
+.readmore{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1b58db;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.readmore:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #1b58db;
+    border: none;
+}
+.main-3 p {
+opacity: 0.6;
+font-size: 18px;
 }
