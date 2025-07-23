@@ -109,6 +109,7 @@ transform: translateY(0);
     align-items: center;
     margin: 40px;
     padding: 30px;
+    text-align:start;
 
 }
 .main-3:hover{
@@ -174,4 +175,14 @@ padding-right: 51px;
 .main-3 p {
 opacity: 0.6;
 font-size: 18px;
+}
+.botn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1b58db;
+    color: white;
+    font-size: 15px;
+    text-align: center;
 }
